@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: Task Manager API
+  version: 1.0.0
+paths:
+  /api/auth/register:
+    post:
+      summary: Register a new user
+      responses:
+        '201':
+          description: Created
+  /api/auth/login:
+    post:
+      summary: Login a user
+      responses:
+        '200':
+          description: Success
